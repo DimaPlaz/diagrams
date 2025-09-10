@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3 Safari/605.1.15" version="28.0.7">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.6 Safari/605.1.15" version="28.2.0">
   <diagram name="Page-1" id="M0QcTSJa4AnqrP-M_9-l">
-    <mxGraphModel dx="1018" dy="584" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1425" dy="806" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -169,14 +169,53 @@
             <mxPoint x="620" y="720" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YOoO0fqVUcpHPqV1nyB2-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="YOoO0fqVUcpHPqV1nyB2-39" target="YOoO0fqVUcpHPqV1nyB2-40" edge="1">
+        <mxCell id="iUsb0EoKmCGG9S1A1PEY-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iUsb0EoKmCGG9S1A1PEY-1" target="iUsb0EoKmCGG9S1A1PEY-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="YOoO0fqVUcpHPqV1nyB2-39" value="собираем servers" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1240" y="140" width="120" height="60" as="geometry" />
+        <mxCell id="iUsb0EoKmCGG9S1A1PEY-1" value="Сбор kvmdedics" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1241" y="100" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="YOoO0fqVUcpHPqV1nyB2-40" value="фильтруем сервера с фришными часами" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1240" y="280" width="120" height="60" as="geometry" />
+        <mxCell id="iUsb0EoKmCGG9S1A1PEY-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iUsb0EoKmCGG9S1A1PEY-2" target="iUsb0EoKmCGG9S1A1PEY-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iUsb0EoKmCGG9S1A1PEY-2" value="Сбор обычных vds (не kvm)" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1441" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iUsb0EoKmCGG9S1A1PEY-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iUsb0EoKmCGG9S1A1PEY-4" target="iUsb0EoKmCGG9S1A1PEY-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iUsb0EoKmCGG9S1A1PEY-4" value="Сбор vds на kvmdedic&#39;ах" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1641" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iUsb0EoKmCGG9S1A1PEY-7" value="Учитывает god_mode&lt;div&gt;dont_reduce_hours&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1241" y="170" width="119" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="iUsb0EoKmCGG9S1A1PEY-8" value="Учитывает god_mode&lt;div&gt;test_period&lt;/div&gt;&lt;div&gt;dont_reduce_hours&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1442" y="170" width="119" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="iUsb0EoKmCGG9S1A1PEY-9" value="Учитывает god_mode&lt;div&gt;test_period&lt;/div&gt;&lt;div&gt;dont_reduce_hours&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1641" y="170" width="119" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="iUsb0EoKmCGG9S1A1PEY-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iUsb0EoKmCGG9S1A1PEY-10" target="iUsb0EoKmCGG9S1A1PEY-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iUsb0EoKmCGG9S1A1PEY-10" value="Обработка&lt;div&gt;&lt;span style=&quot;text-align: left;&quot;&gt;dont_reduce_hours&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1841" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iUsb0EoKmCGG9S1A1PEY-12" value="Сбор стоимости платных сервисов&lt;div&gt;adv/managed&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2249" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iUsb0EoKmCGG9S1A1PEY-14" value="Учитывает account_discount&lt;div&gt;account_service_discount&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2250" y="170" width="119" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="iUsb0EoKmCGG9S1A1PEY-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iUsb0EoKmCGG9S1A1PEY-15" target="iUsb0EoKmCGG9S1A1PEY-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iUsb0EoKmCGG9S1A1PEY-15" value="Расчет стоимости серверов" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2041" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iUsb0EoKmCGG9S1A1PEY-18" value="1. Собирает месячную стоимость сервера&lt;div&gt;2. К cpu_ram_disk применяет скидку vds_discounts&lt;/div&gt;&lt;div&gt;3. Суммируется с bandwidth и adv_services_cost&lt;/div&gt;&lt;div&gt;4. К этой сумме применяется account_discount&lt;/div&gt;&lt;div&gt;5. Переводится в часовую стоимость&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2042" y="170" width="119" height="210" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
